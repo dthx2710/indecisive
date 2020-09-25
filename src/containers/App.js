@@ -9,7 +9,7 @@ function App() {
     {id:1,desc:'No'},
     {id:2,desc:'Maybe'}
   ])
-  const [spinning,setSpin] = useState(false)
+  // const [spinning,setSpin] = useState(false)
 
   const descChangeHandler = (event, id) =>{
     const choiceIndex = choices.findIndex(p => {
